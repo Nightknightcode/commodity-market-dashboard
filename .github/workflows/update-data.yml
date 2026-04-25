@@ -3,8 +3,9 @@ name: Update Commodity Dashboard Data
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 4 hours, Monday to Friday
-    # UTC time. Singapore time = UTC + 8.
+    # Every 4 hours, Monday to Friday
+    # GitHub cron uses UTC.
+    # Singapore time = UTC + 8.
     - cron: "30 */4 * * 1-5"
 
 permissions:
@@ -20,6 +21,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Show repo structure
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -type f | sort
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -33,8 +40,11 @@ jobs:
       - name: Fetch latest commodity data
         run: python scripts/fetch_data.py
 
-      - name: Show changed files
+      - name: Show generated data status
         run: |
+          ls -la data
+          python -m json.tool data/commodities.json > /tmp/commodities_check.json
+          head -40 data/commodities.json
           git status --short
 
       - name: Commit and push updated data
@@ -45,7 +55,7 @@ jobs:
           git add data/commodities.json
 
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No changes to commit."
           else
             git commit -m "Update commodity dashboard data"
             git push
