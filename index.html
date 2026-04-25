@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commodity Market Price Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="title-block">
+          <p class="eyebrow">Market intelligence</p>
+          <h1>Commodity Market Price Dashboard</h1>
+          <p class="subtitle">
+            Tracking Aluminium, Brent Crude, Copper, and Steel HRC futures for senior leadership review.
+          </p>
+        </div>
+        <aside class="header-meta" id="headerMeta" aria-label="Dashboard data status">
+          <span class="source-badge">Data source: Yahoo Finance via scheduled GitHub Actions</span>
+          <span class="generated-copy" id="generatedCopy">Loading market data...</span>
+        </aside>
+      </header>
+
+      <main>
+        <div id="noticeRegion" class="notice-region" aria-live="polite"></div>
+
+        <section id="cards" class="card-grid" aria-label="Commodity futures charts"></section>
+
+        <section class="calculator-panel" aria-labelledby="calculatorTitle">
+          <div class="calculator-heading">
+            <div>
+              <p class="eyebrow">Custom range</p>
+              <h2 id="calculatorTitle">Custom Period Price Change</h2>
+            </div>
+            <p id="calculatorMessage" class="calculator-message" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="calculator-controls">
+            <label>
+              <span>Start date</span>
+              <input id="startDate" type="date">
+            </label>
+            <label>
+              <span>End date</span>
+              <input id="endDate" type="date">
+            </label>
+            <button id="calculateButton" class="primary-button" type="button">Calculate % change</button>
+          </div>
+
+          <div id="calculatorResults" class="result-grid" aria-label="Custom period results"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./dashboard.js" defer></script>
+  </body>
+</html>
