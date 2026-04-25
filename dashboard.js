@@ -1,5 +1,18 @@
 "use strict";
 
+const DATA_URL = `./data/commodities.json?v=${Date.now()}`;
+
+fetch(DATA_URL)
+    .then(response => response.json())
+    .then(data => {
+        window.dashboardData = data;
+        startDashboard(data);
+    })
+    .catch(error => {
+        console.error(error);
+        showLoadError("Failed to load commodity data.");
+    });
+
 const DATA_URL = "./data/commodities.json";
 const PERIODS = [
   { label: "1M", months: 1 },
