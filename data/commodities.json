@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T00:39:27+08:00",
+  "generated_at": "2026-04-27T12:04:10+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -7,15 +7,10 @@
       "ticker": "ALI=F",
       "unit": "USD / tonne",
       "color": "#38bdf8",
-      "observations": 1257,
-      "start_date": "2021-04-26",
+      "observations": 1256,
+      "start_date": "2021-04-27",
       "end_date": "2026-04-24",
       "prices": [
-        {
-          "date": "2021-04-26",
-          "timestamp": 1619395200000,
-          "close": 2406.25
-        },
         {
           "date": "2021-04-27",
           "timestamp": 1619481600000,
@@ -6303,15 +6298,10 @@
       "ticker": "BZ=F",
       "unit": "USD / barrel",
       "color": "#f59e0b",
-      "observations": 1259,
-      "start_date": "2021-04-26",
+      "observations": 1258,
+      "start_date": "2021-04-27",
       "end_date": "2026-04-24",
       "prices": [
-        {
-          "date": "2021-04-26",
-          "timestamp": 1619395200000,
-          "close": 65.650002
-        },
         {
           "date": "2021-04-27",
           "timestamp": 1619481600000,
@@ -12609,15 +12599,10 @@
       "ticker": "HG=F",
       "unit": "USD / lb",
       "color": "#fb7185",
-      "observations": 1259,
-      "start_date": "2021-04-26",
+      "observations": 1258,
+      "start_date": "2021-04-27",
       "end_date": "2026-04-24",
       "prices": [
-        {
-          "date": "2021-04-26",
-          "timestamp": 1619395200000,
-          "close": 4.448
-        },
         {
           "date": "2021-04-27",
           "timestamp": 1619481600000,
@@ -18915,15 +18900,10 @@
       "ticker": "HRC=F",
       "unit": "USD / short ton",
       "color": "#34d399",
-      "observations": 1257,
-      "start_date": "2021-04-26",
+      "observations": 1256,
+      "start_date": "2021-04-27",
       "end_date": "2026-04-24",
       "prices": [
-        {
-          "date": "2021-04-26",
-          "timestamp": 1619395200000,
-          "close": 1360.0
-        },
         {
           "date": "2021-04-27",
           "timestamp": 1619481600000,
