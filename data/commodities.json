@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T06:10:53+08:00",
+  "generated_at": "2026-06-01T13:22:16+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -7,9 +7,9 @@
       "ticker": "ALI=F",
       "unit": "USD / tonne",
       "color": "#38bdf8",
-      "observations": 1256,
+      "observations": 1257,
       "start_date": "2021-06-01",
-      "end_date": "2026-05-29",
+      "end_date": "2026-06-01",
       "prices": [
         {
           "date": "2021-06-01",
@@ -6289,7 +6289,12 @@
         {
           "date": "2026-05-29",
           "timestamp": 1780012800000,
-          "close": 3656.75
+          "close": 3917.75
+        },
+        {
+          "date": "2026-06-01",
+          "timestamp": 1780272000000,
+          "close": 3669.75
         }
       ]
     },
@@ -6298,9 +6303,9 @@
       "ticker": "BZ=F",
       "unit": "USD / barrel",
       "color": "#f59e0b",
-      "observations": 1258,
+      "observations": 1259,
       "start_date": "2021-06-01",
-      "end_date": "2026-05-29",
+      "end_date": "2026-06-01",
       "prices": [
         {
           "date": "2021-06-01",
@@ -12590,7 +12595,12 @@
         {
           "date": "2026-05-29",
           "timestamp": 1780012800000,
-          "close": 91.699997
+          "close": 92.050003
+        },
+        {
+          "date": "2026-06-01",
+          "timestamp": 1780272000000,
+          "close": 93.010002
         }
       ]
     },
@@ -12599,9 +12609,9 @@
       "ticker": "HG=F",
       "unit": "USD / lb",
       "color": "#fb7185",
-      "observations": 1258,
+      "observations": 1259,
       "start_date": "2021-06-01",
-      "end_date": "2026-05-29",
+      "end_date": "2026-06-01",
       "prices": [
         {
           "date": "2021-06-01",
@@ -18891,7 +18901,12 @@
         {
           "date": "2026-05-29",
           "timestamp": 1780012800000,
-          "close": 6.394
+          "close": 6.3595
+        },
+        {
+          "date": "2026-06-01",
+          "timestamp": 1780272000000,
+          "close": 6.4615
         }
       ]
     },
@@ -25182,7 +25197,7 @@
         {
           "date": "2026-05-29",
           "timestamp": 1780012800000,
-          "close": 1161.0
+          "close": 1123.0
         }
       ]
     }
