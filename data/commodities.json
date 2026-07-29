@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:36:47+08:00",
+  "generated_at": "2026-07-30T01:44:04+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -6289,7 +6289,7 @@
         {
           "date": "2026-07-29",
           "timestamp": 1785283200000,
-          "close": 3374.5
+          "close": 3362.75
         }
       ]
     },
@@ -12590,7 +12590,7 @@
         {
           "date": "2026-07-29",
           "timestamp": 1785283200000,
-          "close": 90.050003
+          "close": 90.5
         }
       ]
     },
@@ -18891,7 +18891,7 @@
         {
           "date": "2026-07-29",
           "timestamp": 1785283200000,
-          "close": 6.309
+          "close": 6.3215
         }
       ]
     },
@@ -25182,7 +25182,7 @@
         {
           "date": "2026-07-29",
           "timestamp": 1785283200000,
-          "close": 1202.0
+          "close": 1201.0
         }
       ]
     }
