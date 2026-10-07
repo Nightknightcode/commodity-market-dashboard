@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:13:17+08:00",
+  "generated_at": "2026-10-07T23:38:32+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -7,9 +7,9 @@
       "ticker": "ALI=F",
       "unit": "USD / tonne",
       "color": "#38bdf8",
-      "observations": 1255,
+      "observations": 1256,
       "start_date": "2021-10-07",
-      "end_date": "2026-10-06",
+      "end_date": "2026-10-07",
       "prices": [
         {
           "date": "2021-10-07",
@@ -6285,6 +6285,11 @@
           "date": "2026-10-06",
           "timestamp": 1791244800000,
           "close": 3238.0
+        },
+        {
+          "date": "2026-10-07",
+          "timestamp": 1791331200000,
+          "close": 3228.0
         }
       ]
     },
@@ -12585,7 +12590,7 @@
         {
           "date": "2026-10-07",
           "timestamp": 1791331200000,
-          "close": 101.449997
+          "close": 101.410004
         }
       ]
     },
@@ -18886,7 +18891,7 @@
         {
           "date": "2026-10-07",
           "timestamp": 1791331200000,
-          "close": 6.627
+          "close": 6.6425
         }
       ]
     },
@@ -18895,9 +18900,9 @@
       "ticker": "HRC=F",
       "unit": "USD / short ton",
       "color": "#34d399",
-      "observations": 1255,
+      "observations": 1256,
       "start_date": "2021-10-07",
-      "end_date": "2026-10-06",
+      "end_date": "2026-10-07",
       "prices": [
         {
           "date": "2021-10-07",
@@ -25173,6 +25178,11 @@
           "date": "2026-10-06",
           "timestamp": 1791244800000,
           "close": 1276.0
+        },
+        {
+          "date": "2026-10-07",
+          "timestamp": 1791331200000,
+          "close": 1300.0
         }
       ]
     }
