@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:51:47+08:00",
+  "generated_at": "2026-11-12T15:27:34+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -8,14 +8,9 @@
       "unit": "USD / tonne",
       "color": "#38bdf8",
       "observations": 1256,
-      "start_date": "2021-11-11",
-      "end_date": "2026-11-11",
+      "start_date": "2021-11-12",
+      "end_date": "2026-11-12",
       "prices": [
-        {
-          "date": "2021-11-11",
-          "timestamp": 1636588800000,
-          "close": 2634.0
-        },
         {
           "date": "2021-11-12",
           "timestamp": 1636675200000,
@@ -6289,7 +6284,12 @@
         {
           "date": "2026-11-11",
           "timestamp": 1794355200000,
-          "close": 3175.75
+          "close": 3228.0
+        },
+        {
+          "date": "2026-11-12",
+          "timestamp": 1794441600000,
+          "close": 3172.5
         }
       ]
     },
@@ -6299,14 +6299,9 @@
       "unit": "USD / barrel",
       "color": "#f59e0b",
       "observations": 1258,
-      "start_date": "2021-11-11",
-      "end_date": "2026-11-11",
+      "start_date": "2021-11-12",
+      "end_date": "2026-11-12",
       "prices": [
-        {
-          "date": "2021-11-11",
-          "timestamp": 1636588800000,
-          "close": 82.870003
-        },
         {
           "date": "2021-11-12",
           "timestamp": 1636675200000,
@@ -12590,7 +12585,12 @@
         {
           "date": "2026-11-11",
           "timestamp": 1794355200000,
-          "close": 92.629997
+          "close": 92.760002
+        },
+        {
+          "date": "2026-11-12",
+          "timestamp": 1794441600000,
+          "close": 93.120003
         }
       ]
     },
@@ -12600,14 +12600,9 @@
       "unit": "USD / lb",
       "color": "#fb7185",
       "observations": 1258,
-      "start_date": "2021-11-11",
-      "end_date": "2026-11-11",
+      "start_date": "2021-11-12",
+      "end_date": "2026-11-12",
       "prices": [
-        {
-          "date": "2021-11-11",
-          "timestamp": 1636588800000,
-          "close": 4.4045
-        },
         {
           "date": "2021-11-12",
           "timestamp": 1636675200000,
@@ -18891,7 +18886,12 @@
         {
           "date": "2026-11-11",
           "timestamp": 1794355200000,
-          "close": 6.266
+          "close": 6.2745
+        },
+        {
+          "date": "2026-11-12",
+          "timestamp": 1794441600000,
+          "close": 6.2135
         }
       ]
     },
@@ -18900,15 +18900,10 @@
       "ticker": "HRC=F",
       "unit": "USD / short ton",
       "color": "#34d399",
-      "observations": 1256,
-      "start_date": "2021-11-11",
+      "observations": 1255,
+      "start_date": "2021-11-12",
       "end_date": "2026-11-11",
       "prices": [
-        {
-          "date": "2021-11-11",
-          "timestamp": 1636588800000,
-          "close": 1813.0
-        },
         {
           "date": "2021-11-12",
           "timestamp": 1636675200000,
@@ -25182,7 +25177,7 @@
         {
           "date": "2026-11-11",
           "timestamp": 1794355200000,
-          "close": 1428.0
+          "close": 1351.0
         }
       ]
     }
