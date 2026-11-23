@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:55:48+08:00",
+  "generated_at": "2026-11-24T04:24:12+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -6289,7 +6289,7 @@
         {
           "date": "2026-11-23",
           "timestamp": 1795392000000,
-          "close": 2803.0
+          "close": 2813.0
         }
       ]
     },
@@ -12590,7 +12590,7 @@
         {
           "date": "2026-11-23",
           "timestamp": 1795392000000,
-          "close": 89.449997
+          "close": 86.400002
         }
       ]
     },
@@ -18891,7 +18891,7 @@
         {
           "date": "2026-11-23",
           "timestamp": 1795392000000,
-          "close": 5.5225
+          "close": 5.6265
         }
       ]
     },
@@ -18900,9 +18900,9 @@
       "ticker": "HRC=F",
       "unit": "USD / short ton",
       "color": "#34d399",
-      "observations": 1255,
+      "observations": 1256,
       "start_date": "2021-11-23",
-      "end_date": "2026-11-20",
+      "end_date": "2026-11-23",
       "prices": [
         {
           "date": "2021-11-23",
@@ -25178,6 +25178,11 @@
           "date": "2026-11-20",
           "timestamp": 1795132800000,
           "close": 1352.0
+        },
+        {
+          "date": "2026-11-23",
+          "timestamp": 1795392000000,
+          "close": 1410.0
         }
       ]
     }
