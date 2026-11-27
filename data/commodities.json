@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:41:05+08:00",
+  "generated_at": "2026-11-27T22:03:22+08:00",
   "source": "Yahoo Finance via scheduled GitHub Actions",
   "commodities": {
     "aluminium": {
@@ -9,7 +9,7 @@
       "color": "#38bdf8",
       "observations": 1257,
       "start_date": "2021-11-26",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-27",
       "prices": [
         {
           "date": "2021-11-26",
@@ -6292,9 +6292,9 @@
           "close": 2822.75
         },
         {
-          "date": "2026-11-26",
-          "timestamp": 1795651200000,
-          "close": 2774.5
+          "date": "2026-11-27",
+          "timestamp": 1795737600000,
+          "close": 2809.25
         }
       ]
     },
@@ -6305,7 +6305,7 @@
       "color": "#f59e0b",
       "observations": 1259,
       "start_date": "2021-11-26",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-27",
       "prices": [
         {
           "date": "2021-11-26",
@@ -12598,9 +12598,9 @@
           "close": 94.610001
         },
         {
-          "date": "2026-11-26",
-          "timestamp": 1795651200000,
-          "close": 91.830002
+          "date": "2026-11-27",
+          "timestamp": 1795737600000,
+          "close": 91.449997
         }
       ]
     },
@@ -12611,7 +12611,7 @@
       "color": "#fb7185",
       "observations": 1259,
       "start_date": "2021-11-26",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-27",
       "prices": [
         {
           "date": "2021-11-26",
@@ -18904,9 +18904,9 @@
           "close": 5.3325
         },
         {
-          "date": "2026-11-26",
-          "timestamp": 1795651200000,
-          "close": 5.4505
+          "date": "2026-11-27",
+          "timestamp": 1795737600000,
+          "close": 5.624
         }
       ]
     },
@@ -18917,7 +18917,7 @@
       "color": "#34d399",
       "observations": 1257,
       "start_date": "2021-11-26",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-27",
       "prices": [
         {
           "date": "2021-11-26",
@@ -25200,9 +25200,9 @@
           "close": 1403.0
         },
         {
-          "date": "2026-11-26",
-          "timestamp": 1795651200000,
-          "close": 1429.0
+          "date": "2026-11-27",
+          "timestamp": 1795737600000,
+          "close": 1433.0
         }
       ]
     }
